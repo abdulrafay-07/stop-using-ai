@@ -2,7 +2,11 @@
   "name": "stop-using-ai",
   "displayName": "Stop Using AI",
   "description": "extension that tries to help you use your own brain for solving errors and problems.",
+  "publisher": "StopUsingAI",
   "version": "0.0.1",
+  "repository": {
+    "directory": "https://github.com/abdulrafay-07/stop-using-ai"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -11,6 +15,7 @@
   ],
   "activationEvents": [],
   "main": "./extension.js",
+  "icon": "./icon.png",
   "contributes": {
     "commands": [{
       "command": "stop-using-ai.startBrain",
